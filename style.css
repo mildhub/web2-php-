@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+#copy{
+    display: inline-block;
+    transform: scaleX(-1);
+}
+a{
+    text-decoration: none;
+    color: lightgreen;
+}
+body{
+    border: 1px solid #aaa;
+    width: 700px;
+    margin: auto;
+    margin-top: 30px;
+}
+header{
+    border-bottom: 1px solid #aaa;
+    padding: 10px;
+}
+header input{
+    float: right;
+    border-radius: 10px;
+}
+main{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+nav{
+    border-right: 1px solid #aaa;
+}
+article{
+    border-left: 1px solid #aaa;
+    margin-left: -1px;
+    height: 500px;
+    padding: 10px;
+}
+footer{
+    border-top: 1px solid #aaa;
+    padding: 10px;
+    text-align: center;
+}
+#create{
+    margin-left: 50px;
+    color:red;
+}
+#update{
+    margin-left: 50px;
+    color: yellow;
+}
